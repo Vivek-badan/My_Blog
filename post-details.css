@@ -1,0 +1,64 @@
+body {
+    background-color: #e7e7e7;
+  }
+  
+  #main-navigation {
+    background-color: #390281;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+  }
+  
+  #summary {
+    margin: 8rem auto 3rem auto;
+    padding: 2rem;
+    width: 90%;
+    max-width: 90rem;
+    border-radius: 16px;
+    background-color: #5706c0;
+    position: relative;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+    height: 22rem;
+  }
+  
+  #summary h2 {
+    color: white;
+    font-size: 4.5rem;
+  }
+  
+  #summary article {
+    position: absolute;
+    top: 2rem; /* Adjust as needed for vertical placement */
+    right: 2rem; /* Reduced right margin to bring it closer */
+    padding: 0.5rem 1rem; /* Reduced padding to make the section smaller */
+    border-radius: 8px; /* Slightly reduced border-radius for a sharper look */
+    text-align: right;
+    color: white;
+}
+
+  
+  #summary article img {
+    width: 5rem; /* Adjusted width for a smaller rectangle */
+    height: 3.5rem; /* Adjusted height to maintain a rectangular shape */
+    border-radius: 4px; /* Reduced border-radius for a subtle curve */
+    transform: rotateZ(2.5deg); /* Reduced rotation for a subtle tilt */
+    border: 2px solid white; /* Slightly thinner border */
+    margin-bottom: 0.5rem; /* Reduced margin for better spacing */
+}
+
+  
+  #summary address {
+    font-weight: bold;
+  }
+  
+  #summary time {
+    font-weight: bold;
+  } 
+  
+  main {
+    width: 90%;
+    max-width: 90rem;
+    margin: 3rem auto;
+    background-color: white;
+    padding: 1rem;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+  }
